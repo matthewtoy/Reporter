@@ -45,7 +45,6 @@
   <ItemGroup>
     <Compile Include="Classes.cs" />
     <Compile Include="Coder.cs" />
-    <None Include="NhsNumber.cs" />
     <Compile Include="Exceptions.cs" />
     <Compile Include="Patient.cs" />
     <Compile Include="Program.cs" />
@@ -53,8 +52,9 @@
     <Compile Include="Report.cs" />
     <Compile Include="ReporterPool.cs" />
     <Compile Include="ReportPublisher.cs" />
+    <Compile Include="ExtensionMethods.cs" />
     <Compile Include="TestReporter.cs" />
-    <Compile Include="TextBuilder.cs" />
+    <Compile Include="TextTree.cs" />
     <Compile Include="UserInterlocutor.cs" />
   </ItemGroup>
   <ItemGroup>

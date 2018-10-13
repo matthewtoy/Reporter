@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace ReporterTestConsole
 {
-    class TextBuilder
+    class TextTree
     {
+        private IList<TextTree> siblings;
+        private IList<TextTree> daughters;
+
     }
 }
